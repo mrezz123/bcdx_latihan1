@@ -29,6 +29,89 @@ class MyApp extends StatelessWidget {
                 Text("data 4 "),
               ],
             ),
+          Container(
+            height:  30,
+            width: 300,
+            color: Colors.red,
+          ),
+            Row(children: [Container(
+            height:  30,
+            width: 30,
+            color: Colors.red,
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Container(
+            height:  30,
+            width: 30,
+            color: Colors.red,
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Container(
+            height:  30,
+            width: 30,
+            color: Colors.red,
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Container(
+            height:  30,
+            width: 30,
+            color: Colors.red,
+            )
+            ],),
+
+            SizedBox(
+              height: 25,
+            ),
+            
+            Row(children: [Container(
+            height:  30,
+            width: 30,
+            decoration: BoxDecoration(
+            color: Colors.red,
+            shape: BoxShape.circle,
+            ),
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Container(
+            height:  30,
+            width: 30,
+            decoration: BoxDecoration(
+            color: Colors.red,
+            shape: BoxShape.circle,
+            ),
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Container(
+            height:  30,
+            width: 30,
+            decoration: BoxDecoration(
+            color: Colors.red,
+            shape: BoxShape.circle,
+            ),
+            ),
+            SizedBox(
+              width: 15,
+            ),
+            Container(
+            height:  30,
+            width: 30,
+            decoration: BoxDecoration(
+            color: Colors.red,
+            shape: BoxShape.circle,
+            ),
+            )
+            ],)
+            
           ],
         ),
       ),
